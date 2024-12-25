@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://www.wallpaperflare.com/static/908/683/702/abstract-dark-black-background-digital-art-wallpaper.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#quiz-con{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgb(75, 74, 74);
+    width: 350px;
+    margin-top: -100px;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(18, 87, 185);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(18, 87, 185);
+    border-radius: 5px;
+    font-size: 15px;
+}
+#st{
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#pre{
+    margin-right: 175px;
+    background-color: rgb(232, 243, 249);
+    color: rgb(18, 87, 185);
+    border: 1px solid rgb(18, 87, 185);
+}
+.hidden{
+    display: none;
+}
+#npbtn{
+    margin-top: 20px;
+}
+#opt{
+    margin-top: 10px;
+}
+#pro{
+    margin-top: 15px;
+}
+#start-btn{
+    background-color: rgb(11, 191, 11);
+    border: 1px solid rgb(11, 191, 11);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+#start-btn:hover{
+    background-color: hwb(120 4% 38% / 0.913);
+    border: 1px solid hwb(120 4% 38% / 0.913);
+}
+#pre:hover{
+    background-color: rgba(204, 225, 239, 0.866);
+}
+#next-btn:hover{
+    background-color: rgba(18, 87, 185, 0.882);
+    border: 1px solid rgba(18, 87, 185, 0.882);
+}
+#retry-btn{
+    background-color: rgb(0, 108, 0);
+    border: 1px solid rgb(0, 108, 0);
+}
+#retry-btn:hover{
+    background-color: rgb(6, 146, 6);
+    border: 1px solid rgb(6, 146, 6);
+}
+#next-btn{
+    padding-left: 24px;
+    padding-right: 24px;
+}
